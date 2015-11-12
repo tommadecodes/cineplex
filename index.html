@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cineplex</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Tom Lees">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic' rel='stylesheet' type='text/css'>
+    <script src="jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="script-image.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+    <header><h1>Cineplex</h1></header>
+    <section id="s1" class="normal-p">
+        <div class="bg-normal-p" id="bg1"></div>
+        <div id="main">
+            <div id="wrapper" class="normal-p">
+                <table id="lobby-area">
+                    <td class="control" id="c1-1"><div></div></td>
+                    <td class="control" id="c1-2"><div></div></td>
+                    <td class="control" id="c1-3"><div></div></td>
+                    <td class="control" id="c1-4"><div></div></td>
+                    <td class="control" id="c1-5"><div></div></td>
+                    <td class="control" id="c1-6"><div></div></td>
+                    <td class="control" id="c1-7"><div></div></td>
+                    <td class="control" id="c1-8"><div></div></td>
+                    <td class="control" id="c1-9"><div></div></td>
+                    <td class="control" id="c1-10"><div></div></td>
+                    <td class="control" id="c1-11"><div></div></td>
+                </table>
+                <audio id="lobby" preload="auto" loop>
+                    <source src="audio/01%20lobby.mp3"></source>
+                </audio>
+            </div>
+        </div>
+    </section>
+    <section id="s2" class="normal-p">
+        <div class="bg-normal-p" id="bg2"></div>
+        <div id="main">
+            <div id="wrapper" class="normal-p">
+                <table id="cinema-area">
+                    <td class="control" id="c2-0"><div></div></td>
+                    <td class="control" id="c2-1"><div></div></td>
+                    <td class="control" id="c2-2"><div></div></td>
+                    <td class="control" id="c2-3"><div></div></td>
+                    <td class="control" id="c2-4"><div></div></td>
+                    <td class="control" id="c2-5"><div></div></td>
+                    <td class="control" id="c2-6"><div></div></td>
+                    <td class="control" id="c2-7"><div></div></td>
+                    <td class="control" id="c2-8"><div></div></td>
+                    <td class="control" id="c2-9"><div></div></td>
+                </table>
+                <audio id="cinema" preload="auto" loop>
+                    <source src="audio/02%20cinema%20murmurs.mp3"></source>
+                </audio>
+            </div>
+        </div>
+    </section>
+    <section id="s3" class="cloudy">
+        <div class="bg-cloudy" id="bg3"></div>
+        <div id="main">
+            <div id="wrapper" class="cloudy">
+                <table id="happiness-area">
+                    <td class="control" id="c3-1"><div></div></td>
+                    <td class="control" id="c3-2"><div></div></td>
+                    <td class="control" id="c3-3"><div></div></td>
+                    <td class="control" id="c3-4"><div></div></td>
+                    <td class="control" id="c3-5"><div></div></td>
+                    <td class="control" id="c3-6"><div></div></td>
+                    <td class="control" id="c3-7"><div></div></td>
+                    <td class="control" id="c3-8"><div></div></td>
+                </table>
+                <audio id="happiness" preload="auto" loop>
+                    <source src="audio/03%20happiness.mp3"></source>
+                </audio>
+            </div>
+        </div>
+    </section>
+    <section id="s4" class="cloudy">
+        <div class="bg-cloudy" id="bg4"></div>
+        <div id="main">
+            <div id="wrapper" class="cloudy">
+                <table id="darkness-area">
+                    <td class="control" id="c4-1"><div></div></td>
+                    <td class="control" id="c4-2"><div></div></td>
+                    <td class="control" id="c4-3"><div></div></td>
+                    <td class="control" id="c4-4"><div></div></td>
+                    <td class="control" id="c4-5"><div></div></td>
+                    <td class="control" id="c4-6"><div></div></td>
+                    <td class="control" id="c4-7"><div></div></td>
+                    <td class="control" id="c4-8"><div></div></td>
+                </table>
+                <audio id="darkness" preload="auto" loop>
+                    <source src="audio/04%20darkness.mp3"></source>
+                </audio>
+            </div>
+        </div>
+    </section>
+    <section id="s5" class="cloudy">
+        <div class="bg-cloudy" id="bg5"></div>
+        <div id="main">
+            <div id="wrapper" class="cloudy">
+                <table id="sadness-area">
+                    <td class="control" id="c5-1"><div></div></td>
+                    <td class="control" id="c5-2"><div></div></td>
+                    <td class="control" id="c5-3"><div></div></td>
+                    <td class="control" id="c5-6"><div></div></td>
+                    <td class="control" id="c5-7"><div></div></td>
+                    <td class="control" id="c5-8"><div></div></td>
+                </table>
+                <audio id="sadness" preload="auto" loop>
+                    <source src="audio/05%20sadness.mp3"></source>
+                </audio>
+            </div>
+        </div>
+    </section>
+    <section id="s6" class="normal-l">
+        <div class="bg-normal-l" id="bg6"></div>
+        <div id="main">
+            <div id="wrapper" class="cloudy">
+                <table>
+                    <td class="control" id="sweeping-credit-area"><div></div></td>
+                    <td class="control" id="sweeping-beat-area"><div></div></td>
+                </table>
+                <audio id="sweeping-credit" preload="auto" loop>
+                    <source src="audio/06%20sweeping%20credits.mp3"></source>
+                </audio>
+                <audio id="sweeping-beat" preload="auto" loop>
+                    <source src="audio/06%20sweeping%20beat.mp3"></source>
+                </audio>
+            </div>
+        </div>
+    </section>
+    <script src="script-audio.js" type="text/javascript" charset="utf-8"></script>
+    <footer><h6>A web comic by Tom Lees.</h6></footer>
+</body>
+</html>

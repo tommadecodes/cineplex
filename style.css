@@ -1,0 +1,359 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    outline: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'roboto', 'arial', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-style: italic;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 48px;
+    z-index: 1000;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 48px;
+    z-index: 1000;
+}
+
+h6 {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+/* section 1 */
+
+#s1 {
+    background: url(images/lobby12.jpg);
+}
+
+/* covers */
+
+#bg1.c1-1 {
+	background: url(images/lobby02.jpg);
+}
+
+#bg1.c1-2 {
+	background: url(images/lobby03.jpg);
+}
+
+#bg1.c1-3 {
+	background: url(images/lobby04.jpg);
+}
+
+#bg1.c1-4 {
+	background: url(images/lobby05.jpg);
+}
+
+#bg1.c1-5 {
+	background: url(images/lobby06.jpg);
+}
+
+#bg1.c1-6 {
+	background: url(images/lobby07.jpg);
+}
+
+#bg1.c1-7 {
+	background: url(images/lobby08.jpg);
+}
+
+#bg1.c1-8 {
+	background: url(images/lobby09.jpg);
+}
+
+#bg1.c1-9 {
+	background: url(images/lobby10.jpg);
+}
+
+#bg1.c1-10 {
+	background: url(images/lobby11.jpg);
+}
+
+#bg1.c1-11 {
+	background: url(images/lobby12.jpg);
+}
+
+
+/* section 2 */
+
+#s2 {
+    background: url(images/cineplex01.jpg);
+}
+
+/* covers */
+
+#bg2.c2-0 {
+	background: url(images/cineplex10.jpg);
+}
+
+#bg2.c2-1 {
+	background: url(images/cineplex09.jpg);
+}
+
+#bg2.c2-2 {
+	background: url(images/cineplex08.jpg);
+}
+
+#bg2.c2-3 {
+	background: url(images/cineplex07.jpg);
+}
+
+#bg2.c2-4 {
+	background: url(images/cineplex06.jpg);
+}
+
+#bg2.c2-5 {
+	background: url(images/cineplex05.jpg);
+}
+
+#bg2.c2-6 {
+	background: url(images/cineplex04.jpg);
+}
+
+#bg2.c2-7 {
+	background: url(images/cineplex03.jpg);
+}
+
+#bg2.c2-8 {
+	background: url(images/cineplex02.jpg);
+}
+
+#bg2.c2-9 {
+	background: url(images/cineplex01.jpg);
+}
+
+
+/* section 3 */
+
+#s3 {
+    background: url(images/happiness.jpg);
+}
+
+/* covers */
+
+#bg3.c3-1 {
+	background-color: aliceblue;
+}
+
+#bg3.c3-2 {
+	background-color: aquamarine;
+}
+
+#bg3.c3-3 {
+	background-color: beige;
+}
+
+#bg3.c3-4 {
+	background-color: yellow;
+}
+
+#bg3.c3-5 {
+	background-color: darkseagreen;
+}
+
+#bg3.c3-6 {
+	background-color: cornsilk;
+}
+
+#bg3.c3-7 {
+	background-color: azure;
+}
+
+#bg3.c3-8 {
+	background-color: aqua;
+}
+
+
+/* section 4 */
+
+#s4 {
+    background: url(images/darkness.jpg);
+}
+
+/* covers */
+
+#bg4.c4-1 {
+	background-color: black;
+}
+
+#bg4.c4-2 {
+	background-color: cadetblue;
+}
+
+#bg4.c4-3 {
+	background-color: beige;
+}
+
+#bg4.c4-4 {
+	background-color: crimson;
+}
+
+#bg4.c4-5 {
+	background-color: aliceblue;
+}
+
+#bg4.c4-6 {
+	background-color: black;
+}
+
+#bg4.c4-7 {
+	background-color: brown;
+}
+
+#bg4.c4-8 {
+	background-color: crimson;
+}
+
+
+/* section 5 */
+
+#s5 {
+    background: url(images/sadness.jpg);
+}
+
+/* covers */
+
+#bg5.c5-1 {
+	background-color: aliceblue;
+}
+
+#bg5.c5-2 {
+	background-color: blue;
+}
+
+#bg5.c5-3 {
+	background-color: cadetblue;
+}
+
+#bg5.c5-6 {
+	background-color: blueviolet;
+}
+
+#bg5.c5-7 {
+	background-color: cadetblue;
+}
+
+#bg5.c5-8 {
+	background-color: cornflowerblue;
+}
+
+
+/* section 6 */
+
+#s6 {
+    background: url(images/sweeping.jpg);
+}
+
+/* covers */
+
+#bg6.sweeping-credit-area {
+	background-color: aliceblue;
+}
+
+#bg6.sweeping-beat-area {
+	background-color: aquamarine;
+}
+
+
+/* sizing */
+
+section {
+    display: block;
+    position: relative;
+    height: 100vh;
+    background-position: 50%!important;
+    background-repeat: no-repeat!important;
+}
+
+section.normal-p {
+    background-size: 550px!important;
+}
+
+section.normal-l {
+    background-size: 1100px!important;
+}
+
+section.cloudy {
+    background-attachment: fixed!important;
+    top: 0;
+    left: 0;
+    -webkit-background-size: cover!important;
+	-moz-background-size: cover!important;
+	-o-background-size: cover!important;
+	background-size: cover!important;
+}
+
+.bg-normal-p, .bg-normal-l, .bg-cloudy {
+    background-repeat: no-repeat!important;
+    background-position: 50%!important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 1;
+}
+
+.bg-normal-p {
+    background-size: 550px!important;
+}
+
+.bg-normal-l {
+    background-size: 1100px!important;
+}
+
+.bg-cloudy {
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    opacity: 0.5;
+    background-blend-mode: color;
+}
+
+#main {
+	z-index: 100;
+	position: relative;
+}
+
+#wrapper {
+	width: 100%;
+	z-index: 10;
+}
+
+table {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: 1;
+    border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table {
+    background-color: aliceblue;
+    opacity: 0.1;
+}
+
+.control {
+    height: 100vh;
+}
